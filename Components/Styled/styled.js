@@ -73,22 +73,20 @@ export const Card = styled.div`
   box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
     -3px 5px 6px 9px rgba(0, 0, 0, 0);
   background: #ffff3f;
-  width: 200px;
+  min-width: 20%;
+  max-width: 10em;
   height: 200px;
   margin-left: 5%;
   margin-top: 5%;
+  font-size: 29px;
+  
+  div {
+    font-size: 22px;
 
-  a {
-    justify-self: center;
-    position: relative;
-    display: block;
-    padding: 4px 0;
-    text-decoration: none;
-    text-transform: uppercase;
   }
 `;
 export const Sector = styled.div`
   display: grid;
   grid-gap: 5px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 `;

@@ -12,7 +12,11 @@ export const fetchReducer = (state = initialState, action) => {
         ...state,
         posts: [...action.payload],
       };
-
+      case types.SHOW_USER:
+        return {
+          ...state,
+          users: [...action.payload]
+        }
     default:
       return state;
   }
