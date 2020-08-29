@@ -7,8 +7,12 @@ import logger from "redux-logger";
 import combineReducers from "./reducers/combineRedusers";
 import rootSaga from "./saga/sagas";
 
+interface ProjectReduxProps {
+  posts: PostProps[];
+  users: UserProps[];
+}
 
-const initialStore = {};
+const initialStore:ProjectReduxProps = {};
 const sagaMiddleware = createSagaMiddleware()
 const middleware = [thunk, logger, sagaMiddleware ];
 

@@ -79,10 +79,9 @@ export const Card = styled.div`
   margin-left: 5%;
   margin-top: 5%;
   font-size: 29px;
-  
+
   div {
     font-size: 22px;
-
   }
 `;
 export const Sector = styled.div`

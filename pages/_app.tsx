@@ -2,7 +2,7 @@ import App from "next/app";
 import { ThemeProvider } from "styled-components";
 import { Provider } from "react-redux";
 import { createWrapper } from "next-redux-wrapper";
-import store from '../Components/Redux/store'
+import store from '../Components/Redux/store.ts'
 
 const theme = {};
 

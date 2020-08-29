@@ -1,5 +1,5 @@
 import { put, takeEvery, all, call } from "redux-saga/effects";
-import { showUsers } from "../action";
+import { showUsers } from "../action.ts";
 import { WATCH_USER } from "../types";
 
 const requestOnServer = async ()=>{
